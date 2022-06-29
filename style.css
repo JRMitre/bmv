@@ -1,0 +1,21 @@
+
+table, th, td{
+border: 1px solid rgb(94, 27, 27);
+border-style: solid;
+border-collapse: collapse;
+padding: 3px;
+font-family:verdana;
+font-size: 90%;
+text-align: center;
+}
+
+tr td:nth-child(1){width:10%;}
+tr td:nth-child(2){width:13%;}
+tr td:nth-child(3){width:70%;}
+tr td:nth-child(4), tr td:nth-child(5){width:5%;}
+
+tr:nth-child(even){background-color: #edf2f5;}
+        
+h1{font-family:Trebuchet MS; font-size:2rem; text-align: center}
+h2{font-family:Trebuchet MS; font: size 0.5 rem; text-align: center; font-style: italic;}
+h3{font-family:"Courier New"; font-size: 1.5rem; text-align: left; text-emphasis: open;}
